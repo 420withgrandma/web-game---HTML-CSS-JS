@@ -1,0 +1,26 @@
+[
+  {
+    "firstname" : "Jadon",
+    "lastname" : "Sancho",
+    "email" : "jadonsancho@gmail.com",
+    "username" : "sancholini",
+    "password" : "Chelsea123",
+    "score" : "10"
+  },
+  {
+    "firstname" : "Marcus",
+    "lastname" : "Rashford",
+    "email" : "marcusrashford@gmail.com",
+    "username" : "rashford",
+    "password" : "ManU123",
+    "score" : "5"
+  },
+  {
+    "firstname" : "Anthony",
+    "lastname" : "Martial",
+    "email" : "tonymartial@gmail.com",
+    "username" : "yanited",
+    "password" : "bdor123",
+    "score" : "13"
+  }
+]

@@ -1,0 +1,141 @@
+@font-face {
+  font-family: 'japanola';
+  src: url(../Fonts/font.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+/*Makes the font the default font across the website*/
+
+button {
+  font-family: 'japanola';
+  src: url(../Fonts/font.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+/*Make the font the default for the buttons*/
+
+body {
+  font-family: 'japanola', sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+/*Sets the font to cover everything on the body of the html*/
+
+.background {
+  background-image: url(../Images/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+/*Adds the background image and sets it in the center*/
+
+.navigator {
+  text-align: right;
+  z-index: 2;
+  position: relative;
+}
+/*Puts all objects(buttons) in the navigation bar to the right*/
+
+.navigator img{
+  width: 5%;
+  height: 5%;
+  float: left;
+  z-index: 2;
+  position: relative;
+}
+/*This puts the logo of the website to the left*/
+
+.navbutton {
+  display: inline-block;
+  margin-right: 20px;
+  margin-top: 20px;
+  background-color: rgb(129, 129, 139); 
+  color: white; 
+  padding: 15px 30px;
+  font-size: 15px;
+}
+/*Sets the position and colour of the button*/
+
+.main {
+  color: rgb(255, 255, 255);
+  font-size: 200%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  z-index: 2;
+  position: relative;
+}
+/*Puts the contents into the center of the page*/
+
+.ebutton {
+  background-color: rgb(129, 129, 139); 
+  color: white; 
+  padding: 15px 30px;
+  font-size: 15px;
+}
+/*Changes the colour of the button to grey and increases size*/
+
+#error-message{
+  color: red;
+}
+/*Makes the colour of the text red*/
+
+@keyframes slideright{
+  from {
+    background-position: 70000%;
+  }
+  to {
+    background-position: 0%;
+  }
+}
+/*Makes the background of the game move from left to righ and repeat*/
+
+#city {
+  position: absolute;
+  background-image: url(../Images/gamebg.jpg);
+  background-position: center;
+  background-size: contain;
+  z-index: 3;
+  height: 800px;
+  width: 100%;
+  top: 100px;
+  border: 5px solid black;
+  animation: slideright 600s infinite linear;
+  bottom: 0;
+}
+/*Adds the background of the game whilst setting its size and adding a border and also making the background move*/
+
+.user {
+  background-image: url("../Images/user.PNG");
+  background-repeat: no-repeat;
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  bottom: 130px;
+}
+/*Adds the image of the user into the game and sets its height and position*/
+
+.obstacle {
+  background-image: url("../Images/enemy.png");
+  background-repeat: no-repeat;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  bottom: 130px;
+}
+/*Adds the obstacles into the game whilst settings height and position*/
+
+#alert {
+  justify-content: center;
+  text-align: center;
+  color: red;
+}
+/*Puts the text in the center and changes colour of text to red*/

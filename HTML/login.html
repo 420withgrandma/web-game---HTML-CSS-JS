@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login</title>
+    <link rel="stylesheet" href="../CSS/styles.css" />
+    <script type="text/javascript" src="../JS/login.js" defer></script>
+  </head>
+  <!--Add CSS styling into HTML-->
+  <body>
+    <div class="background"></div>
+    <div class="navigator">
+      <a href="index.html"><img src="../Images/logo.png"></a>
+      <div>   
+        <a href="scoreboard.html"><button class="navbutton">Scoreboard</button></a>
+        <a href="register.html"><button class="navbutton">Register</button></a>
+        <a href="login.html"><button class="navbutton">Login</button></a>
+        <a href="index.html"><button class="navbutton">Home</button></a>
+      </div>    
+    </div>
+    <!--Add navigation bar--> 
+    <div class="main">
+      <h1>Login:</h1>
+      <p>Please enter your login details below<br></p>
+      <p id="error-message"></p>
+      <form class="login">
+        <div class="incorrect">
+          <input type="text" name="username" id="username-input" placeholder="Enter Username">
+        </div>
+        <div class="incorrect">
+          <input type="password" name="password" id="password-input" placeholder="Enter Password">
+        </div>
+        <div>
+          <button class="ebutton" type="submit">Login!</button>
+        </div>
+      </form>
+      <p>Do not have an account?<a href="register.html">Register</a></p>
+    </div> 
+    <!--Create a login form for the user to submit their login details-->     
+  </body>
+</html>
+
+
+
